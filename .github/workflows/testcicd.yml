@@ -97,3 +97,5 @@ jobs:
           name: AndroidCICD-Debug.apk
           path: app/build/outputs/apk/debug/app-debug.apk
           # You can download the APK from GitHub Actions → Artifacts
+          compression-level: 0      # 👉 prevents GitHub from zipping the APK
+
